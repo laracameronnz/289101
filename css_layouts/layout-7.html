@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+    <title>Layout 7</title>
+<style>
+    div { outline: 1px solid black; 
+    }
+    
+     #container {
+margin: auto;
+max-width: 800px;
+}
+
+    #blue {
+        background-color: blue;
+        height: 150px;
+        display: grid;
+        grid-template-columns: 25% 75%;
+    }
+    
+    .yellow {
+        background-color: yellow;
+        margin: 20px;
+    }
+    
+    .green {
+        background-color: lime;
+        height: 400px;
+    }
+    
+    #red {
+        background-color: red;
+        height: 400px;
+        display: grid;
+        grid-template-rows: 30% 70%; 
+    }
+    
+    #bluetwo {
+        background-color: blue;
+        height: 600px;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 25% 25% 25% 25%;
+    }
+    
+    #greentwo {
+      background-color: lime;
+        height: 600px; 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 30% 70%;
+    }
+    
+    #redtwo {
+        background-color: red;
+        height: 600px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 20% 80%;
+    }
+    
+    
+    #blue two {
+        background-color: blue;
+        height: 100px;
+    }
+    </style>
+    </head>
+    
+    
+<body> 
+    <div id="container">
+       <div id="blue">
+         <div class="yellow"></div>
+        <div class="yellow"></div>
+    </div>
+        <div class="green"></div>
+        <div id="red">
+    <div class="yellow"></div>
+    <div class="yellow"></div>
+       <div id="bluetwo">
+<div class="yellow"></div>
+<div class="yellow"></div>         <div class="yellow"></div>
+<div class="yellow"></div>
+<div class="yellow"></div>         <div class="yellow"></div>
+<div class="yellow"></div>
+<div class="yellow"></div>         <div class="yellow"></div>
+<div class="yellow"></div>
+<div class="yellow"></div>         <div class="yellow"></div>
+<div class="yellow"></div>
+            </div>
+            
+<div id="greentwo">
+<div class="yellow"></div>
+<div class="yellow"></div>         <div class="yellow"></div>
+<div class="yellow"></div>   
+            </div>
+
+<div id="redtwo">
+<div class="yellow"></div>         <div class="yellow"></div>
+<div class="yellow"></div> 
+            </div>
+ <div id="blue"></div>          
+
+        </div>
+           
+        
+
+    
+    </div>
+    </body>
+
+
+</html>
